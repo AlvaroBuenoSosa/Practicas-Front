@@ -1,0 +1,25 @@
+{
+    "articulos": [
+        {
+            "id": 1,
+            "nombre": "Articulo1",
+            "descripcion": "Descripción"
+        },
+        {
+           "id": 2,
+            "nombre": "Articulo2",
+            "descripcion": "Descripción" 
+        },
+        {
+            "id": 3,
+            "nombre": "Articulo3",
+            "descripcion": "Descripción" 
+        }
+    ],
+    "cuentas": [
+        {
+            "id": 1,
+            "descripcion": "cuenta antonio"
+        }
+    ]
+}

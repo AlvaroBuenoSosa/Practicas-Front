@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 23</title>
+    <link rel="stylesheet" href="css/ejercicio23.css">
+    <script src="js/ejercicio23.js"></script>
+</head>
+<body>
+    <h2>Datos Personales</h2>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="correo">Email:</label>
+        <input type="correo" id="correo" name="correo"><br><br>
+        <label for="provincia">Provincia:</label>
+        <select id="provincia" name="provincia">
+            <optgroup label="Comunidad Valenciana">Comunidad Valenciana</optgroup>
+            <option value="ALICANTE">ALICANTE</option>
+            <option value="CASTELLON">CASTELLON</option>
+            </optgroup>
+            <optgroup label="Comunidad Murciana">Comunidad Murciana</optgroup>
+            <option value="MURCIA">MURCIA</option>
+            <option value="TOTANA">TOTANA</option>
+            </optgroup>
+        </select><br><br>
+        <button type="button" id="enviar">Enviar</button>
+    </form>
+    <div id="resultado"></div>
+    <div id="mensajeError" style="color: red;"></div>
+
+</body>
+</html>

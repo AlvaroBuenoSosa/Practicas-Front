@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+}
+
+input[type="button"]{
+   height: 2em;
+   border-radius: 2em;
+    border: none;
+}
+
+input[type="button"]:hover{
+    color:blue;
+   background-color: whitesmoke;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+#resultado{
+    border: 1px solid black;
+    height: 80vh;
+}

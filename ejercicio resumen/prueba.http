@@ -1,0 +1,32 @@
+@url=http://192.168.1.219:3000/clientes
+
+###
+
+Get {{url}}
+Content-Type: application/json
+
+###
+
+Post {{url}}
+Content-Type: application/json
+
+{
+    "nombre":"Pepe"
+}
+
+###
+
+PUT {{url}}/fca1
+Content-Type: application/json
+
+{
+    "nombre":"Alvaro"
+}
+
+###
+DELETE {{url}}/fca1
+Content-Type: application/json
+
+{
+    "nombre":"Alvaro"
+}

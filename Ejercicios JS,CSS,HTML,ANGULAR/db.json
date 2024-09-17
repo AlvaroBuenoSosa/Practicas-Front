@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "id": "934d",
+      "name": "alvaro",
+      "description": "description",
+      "assignedTo": 2
+    },
+    {
+      "id": "87fa",
+      "name": "alejandro",
+      "description": "esto es una descripcion",
+      "assignedTo": 3
+    }
+  ],
+  "event": [],
+  "message": [],
+  "reaction": [],
+  "relationship": [],
+  "assistance": []
+}
